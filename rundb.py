@@ -2,7 +2,7 @@ import mysql.connector as mariadb
 import sys
 
 print("---------------------------------")
-print("List of tasks:")
+print("List of tables:")
 print("---------------------------------")
 
 # Connect to MariaDB Platform
@@ -11,8 +11,8 @@ try:
     conn = mariadb.connect(
         user="root",
         password="Asdqwe123",
-        host="tutorialdocker-database-1",
-        port=3306,
+        host="projecteexamen-examenDB-1",
+        port=13306,
         database="information_schema"
 
     )
