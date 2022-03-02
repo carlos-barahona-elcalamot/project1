@@ -17,7 +17,7 @@ try:
         user="root",
         password="Asdqwe123",
         host="projecteexamen-examenDB-1",
-        port=13306,
+        port=3306,
         database="information_schema"
 
     )
