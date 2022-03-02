@@ -1,5 +1,10 @@
 import mysql.connector as mariadb
 import sys
+import time
+
+# Wait 5 seconds for the database server to start
+print("Waiting 5 seconds for the database server to start...")
+time.sleep(5)
 
 print("---------------------------------")
 print("List of tables:")
